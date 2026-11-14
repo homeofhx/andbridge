@@ -1,0 +1,64 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.15226,0.86012,0.44194,1.00000",
+      "display-p3:0.32613,0.88042,0.54706,1.00000"
+    ],
+    "orientation" : {
+      "start" : {
+        "x" : 0.5,
+        "y" : 0
+      },
+      "stop" : {
+        "x" : 0.5,
+        "y" : 0.7
+      }
+    }
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "blend-mode" : "multiply",
+          "fill" : {
+            "automatic-gradient" : "srgb:0.00000,0.58980,1.00000,1.00000"
+          },
+          "hidden" : false,
+          "image-name" : "fg.png",
+          "name" : "fg",
+          "position" : {
+            "scale" : 2.2,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "image-name" : "bg.png",
+          "name" : "bg",
+          "position" : {
+            "scale" : 2,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : [
+      "macOS"
+    ]
+  }
+}
